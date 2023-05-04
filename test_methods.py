@@ -21,3 +21,39 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+    
+    def test_soma():
+    #given a value of 2 and 3
+    valor1 = 2
+    valor2 = 3
+    #when we calculate the sum
+    output = methods.sum_of_values(valor1, valor2)
+    #then the sum should be 5
+    assert output == 5
+
+def test_sub():
+    #given a value of 8 and 2
+    valor1 = 8
+    valor2 = 2
+    #when we calculate the sub
+    output = methods.sub_of_values(valor1, valor2)
+    #then the sub should be 5
+    assert output == 6
+
+def test_mult():
+    #given a value of 8 and 2
+    valor1 = 8
+    valor2 = 2
+    #when we calculate the mult
+    output = methods.mult_of_values(valor1, valor2)
+    #then the mult should be 16
+    assert output == 16
+
+def test_div():
+    #given a value of 8 and 2
+    valor1 = 8
+    valor2 = 2
+    #when we calculate the div
+    output = methods.div_of_values(valor1, valor2)
+    #then the sum should be 4
+    assert output == 4
